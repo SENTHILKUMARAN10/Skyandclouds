@@ -1,27 +1,24 @@
 # Sky & Clouds ☁️
 
-A private long-distance movie-night interface made for Senthil and Abhi.
+A real-time watch-party website for couples, friends and families.
 
-## Features
+## Working features
 
-- Professional watch-party room
-- Netflix, Prime Video, ZEE5 and YouTube launchers
-- 3–2–1 countdown and shared timestamp helper
-- Local camera preview
-- Movie chat and reactions
-- Responsive mobile layout
+- Guest login with display name
+- Create and join private rooms using a code
+- Live participant presence
+- Real-time room chat and emoji reactions
+- Synchronized play, pause, seek and restart for direct video URLs
+- Responsive layouts for phones, tablets, laptops, desktops and landscape screens
+- Local camera preview and group-call shortcut
+- Official Netflix, Prime Video, ZEE5 and YouTube launchers
 
-> Streaming services open in their official apps or websites. Protected OTT video cannot be embedded directly.
+## Important OTT note
 
-## Run locally
+Netflix, Prime Video and ZEE5 use protected playback and do not allow third-party websites to embed or control their players. Open the same title in the official app and use Sky & Clouds for presence, chat and reactions. Direct browser-playable video links can synchronize inside the site.
 
-```bash
-npm install
-npm run dev
-```
+## Production
 
-Open [http://localhost:3000](http://localhost:3000).
+The production app uses ChatGPT Sites with a Cloudflare D1 database for rooms, presence, messages and playback state.
 
-## Live site
-
-[Sky & Clouds](https://our-screen-together.senthilkumaran539.chatgpt.site)
+[Open the live site](https://our-screen-together.senthilkumaran539.chatgpt.site)
